@@ -1,0 +1,126 @@
+{
+  "id": "6895585d-b9e7-4233-9a89-3520c880dbf1",
+  "version": "2.0",
+  "name": "BarclaysWebsite",
+  "url": "https://www.barclays.co.uk",
+  "tests": [{
+    "id": "5dc73710-e69f-487f-93f1-2c51c4bfa5e3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "b1481ccb-9745-4c91-a2f2-561b35d7a74c",
+    "name": "BarclaysWebsite",
+    "commands": [{
+      "id": "a98ced20-2e27-4693-b05c-b0bebfc54602",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c491413c-259f-466d-97bd-cd1e8d2f4bb7",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "777d6db0-44e3-48ad-9df8-99cea7b6faef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Corporate",
+      "targets": [
+        ["linkText=Corporate", "linkText"],
+        ["css=li:nth-child(5) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.barclayscorporate.com/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01d29748-3fc3-4a60-b675-e8c5dfdac46d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.branch-finder span",
+      "targets": [
+        ["css=.branch-finder span", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Find a branch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9297b89-6e1e-4a5a-965f-9b3dcf1fc70f",
+      "comment": "",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=location", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c5e919-e7e4-4b93-a935-2620cbcfd197",
+      "comment": "",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=location", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Watford"
+    }, {
+      "id": "112424a6-0920-4e7f-8e68-68fbb48162e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-area > .btn",
+      "targets": [
+        ["css=.search-area > .btn", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85515db4-cde4-4e69-80bd-b5f683c8909b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Watford, UK",
+      "targets": [
+        ["linkText=Watford, UK", "linkText"],
+        ["css=ol > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Watford, UK')]", "xpath:link"],
+        ["xpath=//div[@id='locationOptions']/div/div/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[55]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Watford, UK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5e4d32-c77a-4f3c-9149-963b1b4c2e9d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c9f5a4d-c61c-45c1-9c12-a4e1f4dd794f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5dc73710-e69f-487f-93f1-2c51c4bfa5e3"]
+  }],
+  "urls": ["https://www.barclays.co.uk/"],
+  "plugins": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "aad09c3e-896a-47b1-abc9-c2dee6b0450e",
+  "version": "2.0",
+  "name": "HarrowCouncil",
+  "url": "https://www.harrow.gov.uk",
+  "tests": [{
+    "id": "9888f0d3-72ca-4fdc-a6d7-636b246d31ca",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "3ee33033-0fe4-48f9-ac0b-91f0aabd7be1",
+    "name": "harrowCouncilTest",
+    "commands": [{
+      "id": "93b12c98-47f6-4aff-b9f7-763a409c8722",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60008acd-d37e-4af4-9e56-fc248bcd7258",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2e30ed7-73f1-4989-8c0a-d01a4d2706f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-service--housing_1",
+      "targets": [
+        ["css=.icon-service--housing_1", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/div/div/div/nav/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2571479-ed6c-40a0-a809-e4b10e00df24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card--highlight-green > .card__description",
+      "targets": [
+        ["css=.card--highlight-green > .card__description", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div/div/div/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Pay online or find out about other payment methods')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "522f84a6-28dc-4b9f-808f-1ea7f3cb54d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,189)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d89a59e2-2a72-4dac-b3c7-02eec234e68e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pay my council tax by Direct Debit",
+      "targets": [
+        ["linkText=Pay my council tax by Direct Debit", "linkText"],
+        ["name=Pay by Direct Debit", "name"],
+        ["css=p:nth-child(5) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay my council tax by Direct Debit')]", "xpath:link"],
+        ["xpath=//a[@name='Pay by Direct Debit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.harrow.gov.uk/wf_ctaxdirectdebit')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay my council tax by Direct Debit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5cfb0c-5cbe-4fec-b103-9de4056012d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b3c5bb4-72ae-4032-8252-95c4e681db64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9888f0d3-72ca-4fdc-a6d7-636b246d31ca"]
+  }],
+  "urls": ["https://www.harrow.gov.uk/"],
+  "plugins": []
+}

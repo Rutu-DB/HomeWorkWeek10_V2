@@ -1,0 +1,217 @@
+{
+  "id": "84fa015e-357e-45c0-9ad3-772df143b37f",
+  "version": "2.0",
+  "name": "xcartWebsite",
+  "url": "https://www.x-cart.com",
+  "tests": [{
+    "id": "5b53da4c-cf76-4548-903f-fc4d43210732",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "0d799def-4916-4a9e-96af-9293dad60dfd",
+    "name": "XcartWebsite",
+    "commands": [{
+      "id": "b1625fef-5339-4d30-9161-4bd6cb3c89d5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77efcf8c-5f6d-4a08-b9e9-7d08b54e2a6b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "724917d2-bc3b-49e5-9704-b53a29b4803b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Get Started",
+      "targets": [
+        ["linkText=Get Started", "linkText"],
+        ["css=.gb-header__btns > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//main[@id='main']/article/header/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.x-cart.com/software-pricing.html')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0d2c9f-c41c-4f21-b224-244356b53530",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Get Started",
+      "targets": [
+        ["linkText=Get Started", "linkText"],
+        ["css=.gb-header__btns > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//main[@id='main']/article/header/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.x-cart.com/software-pricing.html')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "539fbd14-d717-44b6-8a57-1d8cdd9412f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Started",
+      "targets": [
+        ["linkText=Get Started", "linkText"],
+        ["css=.gb-header__btns > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//main[@id='main']/article/header/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.x-cart.com/software-pricing.html')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd468c36-7c01-41fa-9f99-f8f32f0786e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.firstname > label",
+      "targets": [
+        ["css=.firstname > label", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'First Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f1a447-f048-4ac3-8b61-a6162b2c26b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.firstname > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "alpha"
+    }, {
+      "id": "eab82c51-8de0-49d0-8930-4c76cf92702c",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.lastname > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "Beta"
+    }, {
+      "id": "b933f899-f63e-4b7c-9767-f12a435ff130",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "12345678911"
+    }, {
+      "id": "fd802cc9-78b5-4307-8a84-a85fb43582bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=company_name",
+      "targets": [
+        ["id=company_name", "id"],
+        ["name=company", "name"],
+        ["css=#company_name", "css:finder"],
+        ["xpath=//input[@id='company_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span[5]/input", "xpath:idRelative"],
+        ["xpath=//span[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bece29b-31d7-4ecd-b576-ffaf0938759f",
+      "comment": "",
+      "command": "type",
+      "target": "id=company_name",
+      "targets": [
+        ["id=company_name", "id"],
+        ["name=company", "name"],
+        ["css=#company_name", "css:finder"],
+        ["xpath=//input[@id='company_name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span[5]/input", "xpath:idRelative"],
+        ["xpath=//span[5]/input", "xpath:position"]
+      ],
+      "value": "Alpha Ltd"
+    }, {
+      "id": "c1e78539-5903-466b-b6e5-2047aa4df70c",
+      "comment": "",
+      "command": "click",
+      "target": "id=revenue",
+      "targets": [
+        ["id=revenue", "id"],
+        ["name=revenue", "name"],
+        ["css=#revenue", "css:finder"],
+        ["xpath=//select[@id='revenue']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/span[6]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a8ba4e-c77d-4d95-8e47-2134b0aebb3e",
+      "comment": "",
+      "command": "select",
+      "target": "id=revenue",
+      "targets": [],
+      "value": "label=Less than $50,000"
+    }, {
+      "id": "823188a7-f258-4104-bc73-d57f2f1e95eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(2)",
+      "targets": [
+        ["css=option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='1']", "xpath:attributes"],
+        ["xpath=//select[@id='revenue']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Less than $50,000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1870e4f-df4f-4cca-be8b-0a306aa6e3a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Request a Quote']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f25467-p7406-o1']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8474ca7f-c550-47e3-9a13-29191de3c36b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bcc9cf5a-c55f-44f7-97db-b2a4a7ebc67b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5b53da4c-cf76-4548-903f-fc4d43210732"]
+  }],
+  "urls": ["https://www.x-cart.com/"],
+  "plugins": []
+}

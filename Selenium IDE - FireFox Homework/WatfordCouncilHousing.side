@@ -1,0 +1,92 @@
+{
+  "id": "04069cb7-55b7-45ce-8a78-013e32a4d67b",
+  "version": "2.0",
+  "name": "WatfordCouncilHousing",
+  "url": "https://www.wcht.org.uk",
+  "tests": [{
+    "id": "16d00a3f-ec10-4156-90d0-63e57994f8b3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "ee26967b-cbea-41d5-991f-670eb2e6453a",
+    "name": "Wcht",
+    "commands": [{
+      "id": "53c0433e-b477-4da0-ac29-8f26d0e03353",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9dffde0-bbb4-4f43-a689-85ee62e9bd1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "628005e3-69b6-4884-8eff-e886b3e12b0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaec40a5-ff7c-41db-8132-ebc3377042d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "806e9e0d-f0fc-4445-b689-66f57baf0378",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=search", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "library"
+    }, {
+      "id": "aca2daf2-6b88-43ae-89b0-62b979f9499b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-modal__search-btn",
+      "targets": [
+        ["css=.search-modal__search-btn", "css:finder"],
+        ["xpath=//input[@type='image']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e0e8ab7-bc22-4b04-9125-c218ea844211",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b3bbe11-8ca6-454a-a90c-e586efa8b5fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["16d00a3f-ec10-4156-90d0-63e57994f8b3"]
+  }],
+  "urls": ["https://www.wcht.org.uk/"],
+  "plugins": []
+}
